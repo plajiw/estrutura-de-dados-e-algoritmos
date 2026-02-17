@@ -105,13 +105,13 @@ Além disso, ponteiros podem ser comparados (<, >, >=, <=, ==, !=, etc).
 int nota[5] = { 45, 78, 92, 73, 87 };
 int *p;
 
-p = nota ; // p aponta para nota[0]
+p = nota; // p aponta para nota[0]
 printf ("p: %p, *p: %d\n", p, *p);
 
-p++ ;      // p aponta para nota[1]
+p++;      // p aponta para nota[1]
 printf ("p: %p, *p: %d\n", p, *p);
 
-p += 3 ;   // p aponta para nota[4]
+p += 3;   // p aponta para nota[4]
 printf ("p: %p, *p: %d\n", p, *p);
 ```
 
@@ -199,6 +199,8 @@ int main ()
 ```
 
 ## Referências
+
+<https://wiki.inf.ufpr.br/maziero/doku.php?id=prog1:cronograma_2024_2>
 
 <https://wiki.inf.ufpr.br/maziero/doku.php?id=c:ponteiros>
 
