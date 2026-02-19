@@ -1,0 +1,39 @@
+{
+    "workbench.iconTheme": "flow-deep",
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "top",
+    "workbench.productIconTheme": "developer-icons",
+    "workbench.colorTheme": "Default Dark Modern",
+    "explorer.compactFolders": false,
+    "workbench.panel.showLabels": false,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "args": [
+                "--login",
+                "-i"
+            ]
+        }
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "C_Cpp.formatting": "clangFormat",
+    "C_Cpp.clang_format_style": "{ BasedOnStyle: Google, BreakBeforeBraces: Allman, IndentWidth: 4, ColumnLimit: 0 }",
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    }
+}
